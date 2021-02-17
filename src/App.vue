@@ -3,10 +3,15 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+  <router-link to="/"><img alt="logo" src="./assets/logo.png" /></router-link>
   <router-view />
 </template>
 
 <style>
+body{
+  background-color: pink;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,5 +31,9 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+h4 {
+  font-size: 20px;
 }
 </style>
