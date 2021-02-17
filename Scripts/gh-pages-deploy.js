@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+// taken from https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/
 const execa = require("execa");
 const fs = require("fs");
 (async () => {
